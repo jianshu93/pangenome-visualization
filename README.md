@@ -1,10 +1,4 @@
-# Investigating the role of homologous recombination in driving sequence-discrete units at the species and intra-species levels.
-
-![F100 Recent Recombination Model with Complete level Genomes from NCBI RefSeq for 330 Species](https://github.com/rotheconrad/F100_Prok_Recombination/blob/main/00a_example_figures/01_Complete_Genomes_Model.png)
-
-Contains the code and workflow for the F100 recombination project.
-
-This workflow uses 100% sequence similarity between reciprocal best matched genes (RBMs) from a pair of genomes as a proxy for recent homologous recombination events. It assesses the frequency of 100% similar RBMs to total RBMs (F100) for each genome pair input by the user and compares that to the expected value based on aggregate-genome average nucleotide identity (ANI) of the genome pair compared to 1) a model of 330+ species genomes from NCBI that have at least 10 Complete genomes per species, 2) a model of simulated random neutral evolution genomes along a 95%-100% ANI gradient with zero recombination, or 3) an easy to build custom model from the users own colleciton of genomes. This workflow also evaluates the genomic positions of recent recombinant events for genome pairs and for one genome against many genomes. It can also create clusters of genomes with high recombination activity and it can perform hypthosesis testing of broad level functional gene annotations of recombinant vs. non-recombinant genes.
+# Pangenome visualization pipeline
 
 A collection of genomes in fasta format is all that is required as input to begin. This workflow was designed focused on genome collections from the same species (≥95% ANI) but it will work at broader or finer genome similarity groupings as long as some 100% RBMs exist between the genomes.
 
