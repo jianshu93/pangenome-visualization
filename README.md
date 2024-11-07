@@ -1043,7 +1043,7 @@ python 00d_Workflow_Scripts/03g_Recombinant_group_analysis.py -i group_1_list.ts
 #### Sequence identity of RBMs vs. genome position
 
 <div align="center">
-  <img width="00%" src ="Ic_posline_plot_new_color2_posline.jpg">
+  <img width="90%" src ="Ic_posline_plot_new_color2_posline.jpg">
 </div>
 
 #### Recombinant RBM curve plot
